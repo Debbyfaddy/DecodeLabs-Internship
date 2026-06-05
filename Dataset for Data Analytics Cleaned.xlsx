@@ -3,7 +3,6 @@ My Data Analytics Project 2: Exploratory Data Analysis (EDA)
 About My Project
 My goal for this project was to interrogate the data to uncover hidden patterns, analyze sales distributions, track down key revenue drivers, and present actionable insights that help the business grow.
 
----
 
 Detailed Step-by-Step Data Analysis Process
 
@@ -22,7 +21,6 @@ By tracking sales chronologically across month-by-month periods, I discovered a 
 4. Handling Missing Data (The Coupon Code Column)
 During my analysis, I found that the only column containing missing data was the Coupon Code section. These blank spots represented transactions where customers did not use a discount. To clean the view for reporting, I updated these blanks to read "No Coupon" or "None" so they group correctly.
 
----
 
 Dashboard Metrics & Key Performance Indicators (KPIs)
 To translate these raw numbers into a clear executive view, my analysis sets up the structure for a business dashboard tracking four vital metrics:
@@ -31,21 +29,20 @@ To translate these raw numbers into a clear executive view, my analysis sets up 
 * Order Volume by Product: A clear bar chart breakdown showing item popularity.
 * Order Status Distribution: A tracking metric showing what percentage of orders are Shipped, Pending, or Cancelled.
 
----
 
 Key Business Insights
 * Product Concentration: Chairs and Printers are the backbone of our sales funnel. They drive both the highest transaction volumes and financial totals simultaneously.
 * Seasonality: The "June Spike" is a recurring business signal. Sales increase drastically mid-year, which likely matches corporate restocking cycles or mid-year consumer sales.
 * Phone Underperformance: Phones are lagging significantly behind all other electronics (Laptops and Monitors) in both items sold and revenue generated.
 
----
+
 
 Actionable Business Recommendations
 * Capitalize on Seasonality: Increase marketing budgets and run targeted email campaigns in May to fully capture the massive surge of buyers before the June sales spike hits.
 * Stock Management: Keep inventory levels high for Chairs and Printers, especially leading into the summer months, to prevent running out of stock on our highest-value drivers.
 * Re-evaluate Phone Strategy: Since Phones are our lowest-performing product category, the marketing team should introduce bundle offers (e.g., buy a Laptop, get a discount on a Phone) or offer specific coupon codes to boost phone sales volume.
 
----
+
 
 How My Excel Workbook Is Organized
 To make grading easy for my facilitator, the updated Excel workbook Dataset for Data Analytics Cleaned.xlsx is organized into clear sheets:
