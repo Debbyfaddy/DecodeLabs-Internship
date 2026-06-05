@@ -1,50 +1,58 @@
 My Data Analytics Project 2: Exploratory Data Analysis (EDA)
 
 About My Project
-My goal for this project was to interrogate the data to uncover hidden patterns, analyze sales distributions, track down key revenue drivers, and present actionable insights that help the business grow.
+My goal for this project  was to interrogate the data to uncover hidden patterns, analyze sales distributions, track down key revenue drivers, and present actionable insights that help the business grow.
 
+---
 
-Detailed Step-by-Step Data Analysis Process
+Detailed Summary of My Charts and Data Analysis
 
-1. Descriptive Statistics & Center of Gravity
-I calculated the baseline metrics across the dataset to understand our numbers. I checked the total order volumes, the arithmetic mean (average sales values), and the median (middle point) to see how our typical sales perform without extreme figures skewing the view.
+1. Baseline Data Metrics (Descriptive Statistics)
+I calculated the core statistics across our 1,200 total transaction records to establish our data's center of gravity:
+* Total Transactions Monitored: 1,200 orders.
+* Quantity per Order: The average (Mean) items purchased per order is 2.94 items, with a middle point (Median) of 3 items.
+* Unit Pricing Strategy: The average and median unit price for items sits consistently at $570.62.
 
-2. Product Performance Analysis
-I grouped the dataset by product types to see exactly which items generate the highest customer demand and the most revenue. 
-* High Revenue Drivers: Chairs and Printers are our leading revenue generators, each bringing in over $195,000.
-* High Volume Items: Chairs (562 items sold) and Printers (542 items sold) are also our fastest-moving stock pieces.
-* Lowest Performer: Phones brought in the lowest total revenue ($151,722) and lowest volume (411 items sold).
+2. Product Sales & Volume Summary (Bar Charts Breakdown)
+I grouped the dataset by product categories to see which inventory items are pulling the most weight.
+* High Performance Revenue: Chairs are our leading revenue source, bringing in a total of $195,620.11, closely followed by Printers at $195,612.61.
+* Volume Distribution: Chairs also rank highest in consumer demand with 562 units sold, followed by Printers at 542 units sold.
+* Low Performance Items: Phones are trailing significantly behind the rest of the catalog, generating the lowest total revenue ($151,722.39) and lowest volume sold (411 units).
 
-3. Trend Assessment & The "June Spike"
-By tracking sales chronologically across month-by-month periods, I discovered a major seasonal sales trend. Our highest revenue period across the entire dataset occurred in June 2024, generating a massive $68,068 in a single month. This points to a clear mid-year seasonal demand spike.
+3. Monthly Revenue Trend Summary (Line Chart Assessment)
+By looking at the monthly breakdown across our total $1,264,761.96 in revenue, I uncovered a major seasonal trend:
+* The Massive June Spike: June is our highest performing business month by far, peaking at an incredible $170,616.13 in sales.
+* May Build-up: May also showed strong performance with $135,142.59.
+* Second Half Drop: Sales drop to their lowest levels during the late summer and fall, hitting a deep floor in September at $69,321.65.
 
-4. Handling Missing Data (The Coupon Code Column)
-During my analysis, I found that the only column containing missing data was the Coupon Code section. These blank spots represented transactions where customers did not use a discount. To clean the view for reporting, I updated these blanks to read "No Coupon" or "None" so they group correctly.
+4. Order Status Tracking (Doughnut / Pie Chart Distribution)
+I audited how orders flow from checkout to the customer across our 1,200 records to identify delivery friction points:
+* Cancelled Orders: 250 orders
+* Returned Orders: 247 orders
+* Pending status: 237 orders
+* Shipped status: 235 orders
+* Delivered status: 231 orders
 
+---
 
-Dashboard Metrics & Key Performance Indicators (KPIs)
-To translate these raw numbers into a clear executive view, my analysis sets up the structure for a business dashboard tracking four vital metrics:
-* Total Sales Revenue: The overall financial health of our catalog.
-* Average Order Value (AOV): How much a customer spends on average per checkout transaction.
-* Order Volume by Product: A clear bar chart breakdown showing item popularity.
-* Order Status Distribution: A tracking metric showing what percentage of orders are Shipped, Pending, or Cancelled.
+Key Business Insights From My Analysis
+* Product Success: Chairs and Printers are the ultimate anchors of our business model. They completely dominate both revenue and quantity metrics simultaneously.
+* High Operations Friction: Our cancellation and return numbers are dangerously close to our actual fulfillment numbers (231 Delivered vs 250 Cancelled). This shows a critical breakdown in order satisfaction or customer change-of-mind post-purchase.
+* Mid-Year Seasonality: There is a powerful summer purchasing cycle, peaking in June, which stands out drastically compared to the sluggish autumn sales drop in September.
 
+---
 
-Key Business Insights
-* Product Concentration: Chairs and Printers are the backbone of our sales funnel. They drive both the highest transaction volumes and financial totals simultaneously.
-* Seasonality: The "June Spike" is a recurring business signal. Sales increase drastically mid-year, which likely matches corporate restocking cycles or mid-year consumer sales.
-* Phone Underperformance: Phones are lagging significantly behind all other electronics (Laptops and Monitors) in both items sold and revenue generated.
+Actionable Business Recommendations
+* Launch Pre-Summer Marketing: Focus major advertising budgets around April and May to fully maximize customer engagement right before our massive June revenue spike arrives.
+* Investigate Cancellations and Returns: Since cancelled and returned orders make up a massive portion of our data distribution, we must audit our checkout process and return policies to find out why customers are pulling back or returning items.
+* Boost Phone Sales with Bundling: To clear phone inventory and lift its lagging $151,722.39 revenue, the business should run promotional bundles—like pairing a Phone purchase with high-margin items like Desks or Chairs.
 
-
-
-Actionable Business Recommendations 
-* Capitalize on Seasonality: Increase marketing budgets and run targeted email campaigns in May to fully capture the massive surge of buyers before the June sales spike hits.
-* Stock Management: Keep inventory levels high for Chairs and Printers, especially leading into the summer months, to prevent running out of stock on our highest-value drivers.
-* Re-evaluate Phone Strategy: Since Phones are our lowest-performing product category, the marketing team should introduce bundle offers (e.g., buy a Laptop, get a discount on a Phone) or offer specific coupon codes to boost phone sales volume.
-
-
+---
 
 How My Excel Workbook Is Organized
-To make grading easy for my facilitator, the updated Excel workbook Dataset for Data Analytics Cleaned.xlsx is organized into clear sheets:
-* Cleaned data: The final, pristine dataset containing all verified rows.
-* Charts summary & Descriptive Statistics: The dedicated analytical pages containing my summary formulas, product breakdowns, and trend calculations.
+To make grading straightforward, the updated Excel workbook Dataset for Data Analytics Cleaned.xlsx is organized into clear sheets:
+* Cleaned data: The core table containing my verified, clean rows.
+* Basic Statistics & Outliers Analysis: Sheets focusing on mathematical data distributions and extreme entries.
+* Revenue / Qty by product: Pivot sheets analyzing individual item performance.
+* Monthly revenue trend: The chronological sales overview highlighting our seasonal peaks.
+* Order status by count of order: The distribution of our order fulfillment lifecycle.
