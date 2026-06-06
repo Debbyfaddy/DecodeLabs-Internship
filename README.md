@@ -41,7 +41,7 @@ Project 2 moves into the discovery phase. My goal for this milestone was to inte
 I calculated the core statistics across our 1,200 total transaction records to establish our data's center of gravity[cite: 1]:
 
 * **Total Transactions Monitored:** 1,200 orders.
-* **Quantity per Order:** The average (Mean) items purchased per order is 2.94 items, with a middle point (Median) of 3 items[cite: 1].
+* **Quantity per Order:** The average (Mean) items purchased per order is 2.94 items, with a middle point (Median) of 3 items.
 * **Unit Pricing Strategy:** The average and median unit price for items sits consistently at $570.62.
 
 ### 2. Product Sales & Volume Summary (Bar Charts Breakdown)
