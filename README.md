@@ -31,7 +31,7 @@ The Cleaned Sheet: This contains my finalized, polished data table after running
 # My Data Analytics Project 2: Exploratory Data Analysis (EDA)
 
 ## About My Project
-Now that our retail dataset is clean, Project 2 moves into the discovery phase[cite: 1]. My goal for this milestone was to interrogate the data to uncover hidden patterns, analyze sales distributions, track down key revenue drivers, and present actionable insights that help the business grow.
+Project 2 moves into the discovery phase. My goal for this milestone was to interrogate the data to uncover hidden patterns, analyze sales distributions, track down key revenue drivers, and present actionable insights that help the business grow.
 
 ---
 
@@ -89,7 +89,7 @@ I audited how orders flow from checkout to the customer across our 1,200 records
 To make grading straightforward, the updated Excel workbook Dataset for Data Analytics Cleaned.xlsx is organized into clear sheets:
 
 * **Cleaned data:** The core table containing my verified, clean rows.
-* **Basic Statistics & Outliers Analysis:** Sheets focusing on mathematical data distributions and extreme entries[cite: 1].
+* **Basic Statistics & Outliers Analysis:** Sheets focusing on mathematical data distributions and extreme entries.
 * **Revenue / Qty by product:** Pivot sheets analyzing individual item performance.
 * **Monthly revenue trend:** The chronological sales overview highlighting our seasonal peaks.
 * **Order status by count of order:** The distribution of our order fulfillment lifecycle.
