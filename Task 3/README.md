@@ -39,6 +39,7 @@ SELECT * FROM sales_data;
 
 ## SQL Queries and Key Insights
 Key Business Metrics
+
 # Query 1: Total Orders and Revenue KPI
 Objective: Calculate the total volume of transactions, overall accumulated revenue, and the average order value using COUNT, SUM, and AVG.
 
