@@ -1,7 +1,7 @@
 # Task 3: SQL Data Analysis
 
 # Project Goal
-The goal of this project is to use PostgreSQL and pgAdmin to manage a sales_data write structured SQL queries to filter through records, and extract critical business performance metrics.
+The goal of this project is to use PostgreSQL and pgAdmin to manage a sales_data, write structured SQL queries to filter through records, and extract critical business performance metrics.
 This folder contains the SQL scripts used to load, clean, and analyze the transaction dataset. The analysis focuses on extracting key performance indicators (KPIs) such as total revenue, order statuses, product performance, and average transaction values. All queries reference the script file Task 3 SQL.sql`.
 
 ## Database Setup & Table Creation
